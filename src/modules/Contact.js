@@ -1,24 +1,9 @@
 import React from "react";
-import Input from "../components/Input";
-import { InputList } from "../components/InputList";
 import TextArea from "../components/TextArea";
+import InputCotact from "../components/inputCotact";
 
 const Contact = () => {
 
-  let inputFields = InputList.map((input)=>{
-    return(
-      <div key={input.id}>
-      <Input 
-      type={input.type}
-       name={input.name}
-       label={input.label}
-       labelId={input.name + input.labelId}
-       placeholder={input.placeholder}
-       id={input.name + input.id}
-       />
-       </div>
-    )
-  })
   return (
     <div>
       <div id="Contact" name="contact" className="contactContainer">
@@ -30,7 +15,19 @@ const Contact = () => {
         </div>
         <div className="contactcard">
           <form action="https://getform.io/f/4e614526-e143-4d2f-8c60-62be0a95e700" method="POST" className="formCard">
-            {inputFields}
+            <div>
+            <InputCotact 
+              placeholder="Fill your full name"
+              name="name"
+              contactForm={'contactForm'}
+
+          />
+            <InputCotact 
+              placeholder="Fill your correct email"
+              name="Email"
+              contactForm={'contactForm'}
+             />
+            </div>
             <div className="textArea">
              <TextArea />
             </div>

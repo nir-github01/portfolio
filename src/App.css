@@ -11,6 +11,15 @@
   color: #ffffff;
   z-index: 10;
 }
+.contactForm{
+  border: 1px solid rgb(12, 89, 92);
+  margin: 15px;
+  padding: 5px 15px;
+  border-radius: 1vh;
+  box-shadow: 2px 2px 2px rgb(7, 57, 77);
+  font-size: 12px;
+  width: 290px;
+}
 .mobilemenunavbox {
   width: 100%;
   display: flex;
@@ -360,6 +369,7 @@
      .formCard{
       margin: 20px;
       border-radius:2vh;
+      padding: 10px;
       box-shadow:5px 5px 5px 6px rgb(248, 205, 167);
       /* background: linear-gradient(to top, rgb(247, 198, 115), rgb(87, 87, 145), rgb(240, 193, 113), rgb(87, 87, 145), rgb(240, 193, 113)); */
      }
@@ -535,7 +545,7 @@
     align-content: center;
     margin-top: 1%;
     display:flex;
-    row-gap: 5rem;
+    row-gap: 4rem;
     
   }
   .textBox{
@@ -565,7 +575,7 @@
     border-top-right-radius: 2vh;
     border-top-left-radius: 2vh;
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     background:linear-gradient(to right, rgb(124, 41, 8), rgba(83, 80, 243, 0.178), rgb(236, 69, 133), rgb(124, 41, 8))
   }
 }
