@@ -22,7 +22,7 @@ const Portfolio = () => {
           <h1 >Portfolio</h1>
         </div>
         <div className='portfoliotitle'>
-            <p>Check out some of my work right here</p>
+            <p className="text-justify">Check out some of my work right here</p>
           </div>
         <div className="card">{Portfolios}</div>
       </div>

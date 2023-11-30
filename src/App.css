@@ -76,7 +76,7 @@
 .imgBox{
   cursor: pointer;
   position: relative;
-  top: 20%;
+  top: 16%;
   width:25%;
 }
 .myImageclass{
@@ -197,6 +197,7 @@
   background:linear-gradient(to right, rgb(124, 41, 8), rgba(83, 80, 243, 0.178), rgb(236, 69, 133), rgb(124, 41, 8))
 }
 .cardImg{
+  width: 85%;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
   border-top:3px solid rgb(242, 245, 244);
@@ -292,6 +293,7 @@
 
   }
   .skilltitle p{
+    text-align: justify;
     color: rgb(22, 55, 117);
     margin:15px 30px 15px 50px;
      border-bottom: 4px solid rgb(245, 88, 4);
@@ -556,7 +558,6 @@
   }
   .imgBox{
     width:25%;
-    margin-bottom: 20px;
   }
 
   /** Portfolio */
@@ -579,6 +580,10 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     background:linear-gradient(to right, rgb(124, 41, 8), rgba(83, 80, 243, 0.178), rgb(236, 69, 133), rgb(124, 41, 8))
+  }
+  .contactcard{
+    position: absolute;
+    left: 10%;
   }
 }
 
