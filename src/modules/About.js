@@ -10,29 +10,23 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-2xl font-bold inline border-b-4 border-gray-500 ml-10">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-md mt-20 ml-40 text-justify"> 
+         I am ranjeet yadav from hazaribagh jharkhand. I have completed B.tech, with computer
+         science engineering in 2021. 
+         I have worked in Canvas Craft media(Mohali, Chandigarh) as full stack laravel developer, and complete part time
+          internship (MERN Stack) from hoping mind(Chandigarh).
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        <p className="text-md ml-40 text-justify">
+         I am quick learner and having positive attitude. As well challenge taker also active in society in different occasion. 
+         I want to explore my skills and grow with positive attitude.
         </p>
       </div>
     </div>

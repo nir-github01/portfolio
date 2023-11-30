@@ -3,7 +3,6 @@ import Navbars from "./Navbars";
 import myImage from "../assets/myimage20221227140623.jpg";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import SocialLinks from "./SocialLinks";
-import ImageUpload from "./ImageUpload";
 
 const Home = () => {
   return (
@@ -39,7 +38,6 @@ const Home = () => {
           />
         </div>
       </div>
-      <ImageUpload />
     </div>
   );
 };

@@ -21,6 +21,10 @@
   height: 60%;
   background: linear-gradient(to bottom, #a3540a, rgb(233, 105, 46));
 }
+.aboutBox{
+  color: #eceae9;
+  font-size: 16px;
+}
 .nameSign span {
   font-weight: 700;
   font-size: 20px;
