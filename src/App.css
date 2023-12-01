@@ -271,7 +271,7 @@
 }
 /**About  */
 .aboutTextbox{
-  margin: 15px 40px 15px 60px ;
+  margin: 15px 40px 15px 50px ;
   font-size: 14px;
 }    
 
@@ -609,7 +609,7 @@
 
     /** About */
     .aboutTextbox{
-      margin: 10px 40px;
+      margin: 10px 35px;
       font-size: 14px;
     }  
 
