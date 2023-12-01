@@ -61,7 +61,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
   align-content: center;
   margin-top: 0%;
@@ -499,6 +499,21 @@
    .mobileBox{
     position: absolute;
    }
+   .textBox{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 70%;
+  }
+  .imgBox{
+    cursor: pointer;
+    position: relative;
+    top: 16%;
+    width:70%;
+  }
+  .myImageclass{
+    width: 100%;
+  }
   .mobilemenunavbox {
     width: 100%;
     position: fixed;
