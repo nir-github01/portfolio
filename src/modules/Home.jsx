@@ -29,7 +29,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="imgBox col-sm-3">
+        <div className="imgBox">
           <img
             src={myImage}
             id="myImageId"
