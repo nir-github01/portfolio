@@ -573,6 +573,11 @@
 
   /** Skills  */
 
+  /** About */
+     .aboutTextbox{
+      margin: 10px 30px;
+     }   
+
   .skillcard{
     margin: 0px 40px 0px 40px;
     border-top-right-radius: 2vh;
