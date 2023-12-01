@@ -227,6 +227,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   border-bottom-right-radius: 2vh;
   border-bottom-left-radius: 2vh;
   background:linear-gradient(to top, rgb(94, 7, 112), rgb(124, 41, 8));
@@ -573,13 +574,41 @@
     grid-template-columns: repeat(2, 1fr);
     background:linear-gradient(to right, rgb(124, 41, 8), rgba(83, 80, 243, 0.178), rgb(236, 69, 133), rgb(124, 41, 8))
   }
+  .cardBtn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    background:linear-gradient(to top, rgb(94, 7, 112), rgb(124, 41, 8));
+    box-shadow:0px 4px  rgb(217, 103, 240);
+    justify-content: space-evenly;
+  
+  }
+
+  .dcbtn{
+    width: 70%;
+    text-align: center;
+    border:1px #f1eeeb;
+    outline: 1px #ffffff;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 1px 1px 1px 1px #a3540a;
+    padding: 4px 10px 4px 10px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 1vh;
+  
+  }
+
+    /** About */
+    .aboutTextbox{
+      margin: 10px 30px;
+     }   
 
   /** Skills  */
 
-  /** About */
-     .aboutTextbox{
-      margin: 10px 30px;
-     }   
+
 
   .skillcard{
     margin: 0px 40px 0px 40px;
