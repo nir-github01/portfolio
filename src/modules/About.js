@@ -14,20 +14,22 @@ const About = () => {
             About
           </p>
         </div>
+        <div className='aboutTextbox'>
+            <p className="text-md mt-20 text-justify"> 
+            I am ranjeet yadav from hazaribagh jharkhand. I have completed B.tech, with computer
+            science engineering in 2021. 
+            I have worked in Canvas Craft media(Mohali, Chandigarh) as full stack laravel developer, and complete part time
+              internship (MERN Stack) from hoping mind(Chandigarh).
+            </p>
 
-        <p className="text-md mt-20 ml-40 text-justify"> 
-         I am ranjeet yadav from hazaribagh jharkhand. I have completed B.tech, with computer
-         science engineering in 2021. 
-         I have worked in Canvas Craft media(Mohali, Chandigarh) as full stack laravel developer, and complete part time
-          internship (MERN Stack) from hoping mind(Chandigarh).
-        </p>
+            <br />
 
-        <br />
+            <p className="text-md text-justify">
+            I am quick learner and having positive attitude. As well challenge taker also active in society in different occasion. 
+            I want to explore my skills and grow with positive attitude.
+            </p>
 
-        <p className="text-md ml-40 text-justify">
-         I am quick learner and having positive attitude. As well challenge taker also active in society in different occasion. 
-         I want to explore my skills and grow with positive attitude.
-        </p>
+        </div>
       </div>
     </div>
 
