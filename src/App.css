@@ -197,7 +197,7 @@
   background:linear-gradient(to right, rgb(124, 41, 8), rgba(83, 80, 243, 0.178), rgb(236, 69, 133), rgb(124, 41, 8))
 }
 .cardImg{
-  width: 85%;
+  width: 75%;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
   border-top:3px solid rgb(242, 245, 244);
@@ -505,7 +505,7 @@
   .threedivmenu{
     position: fixed;
     right: 35%;
-    top: 8%;
+    top: 4%;
     margin: 10px 30px 10px 10px;
   }
   .threedivmenu div{
@@ -523,8 +523,8 @@
   }
   .twoCrossdiv{
     position: fixed;
-    right: 40%;
-    bottom: 38%;
+    right: 44%;
+    bottom: 44%;
   }
   .twoCrossdiv #div2{
     margin: 4px;
@@ -583,7 +583,7 @@
   }
   .contactcard{
     position: absolute;
-    left: 10%;
+    left: 8%;
   }
 }
 
