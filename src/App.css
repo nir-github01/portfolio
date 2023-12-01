@@ -554,16 +554,14 @@
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
-    margin-top: 1%;
     
   }
   .textBox{
-    position: relative;
-    top: 10%;
+    text-align: justify;
     width: 70%;
   }
   .imgBox{
-    width:60%;
+    width:70%;
     margin-bottom: 100px;
   }
 
