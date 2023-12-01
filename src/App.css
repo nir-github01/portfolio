@@ -87,7 +87,7 @@
 }
 .btnClass{
   display: flex;
-  gap: 10px;
+  gap: 5px;
   font-size: 16px;
   width: fit-content;
   padding: 10px 5px 5px 15px;
@@ -224,6 +224,9 @@
 .cardBtn{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
   border-bottom-right-radius: 2vh;
   border-bottom-left-radius: 2vh;
   background:linear-gradient(to top, rgb(94, 7, 112), rgb(124, 41, 8));
